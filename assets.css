@@ -1,0 +1,400 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1 {
+    width: 1521px;
+    height: 90px;
+    margin: auto;
+    display: flex;
+}
+
+.box1 i {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 104px;
+}
+
+.box1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.box2 i {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-left: 40px;
+}
+
+.box2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.box3 img {
+    width: 110px;
+    height: 36px;
+    margin-left: 350px;
+    margin-top: 25px;
+}
+
+.box4 {
+    margin-top: 20px;
+}
+
+.box4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 400px;
+}
+
+.box4 button {
+    width: 104px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.div2 {
+
+    height: 607px;
+    margin: auto;
+}
+
+.div2 {
+    background: linear-gradient(rgba(101, 115, 136, 0.4), rgba(192, 231, 84, 0.2)),
+        url(./rasmlar/8535598dd79d82bf9c6a77a53ab28436f5a42b70.jpg)center/cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.teks {
+    width: 440px;
+    height: 203px;
+    margin-left: 130px;
+}
+
+.teks h3 {
+    font-size: 50px;
+    color: white;
+    padding-top: 70px;
+}
+
+.teks p {
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+
+.div3 {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    width: 1232px;
+    height: 252px;
+    margin: 20px auto;
+    margin-top: -100px;
+}
+
+.iml {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.moll {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.input-group {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 15px;
+    flex: 1;
+}
+
+.input-group legend {
+    font-size: 12px;
+    padding: 0 5px;
+    color: #666;
+}
+
+.input-group input,
+.input-group select {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.teir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kopp {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.qode {
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.rex {
+    background-color: #8DD3BB;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 40px;
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.Bosh {
+    margin-bottom: 20px;
+    width: 1200px;
+    height: 72px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.tit{
+    font-size: 40px;
+}
+.Bosh p{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.r {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.sss {
+    width: 1232px;
+    height: 440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+
+.sss img {
+    width: 90px;
+    height: 90px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.sss1 {
+    width: 390px;
+    height: 122px;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 18px;
+    background-color: white;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0.8);
+}
+
+
+.a img {
+    width: 1550px;
+    height: 486px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.tap {
+    width: 1232px;
+    height: 552px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.yap {
+    width: 1225px;
+    height: 420px;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imej {
+    width: 296px;
+    height: 420px;
+    background-image: url(./rasmlar/photo_2026-04-28_22-42-07.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.p {
+    font-size: 12px;
+    margin-right: 70px;
+}
+
+.o {
+    font-size: 20px;
+}
+
+.h {
+    width: 248px;
+    height: 48px;
+    margin: auto;
+    background-color: #8dd3bb;
+}
+
+.botun {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.imej1 {
+    margin-top: 300px;
+    width: 248px;
+    margin-left: 23px;
+}
+
+/* ================================ */
+.imej9 {
+    width: 296px;
+    height: 420px;
+    background-image: url(./rasmlar/photo_2026-04-28_22-41-46.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.p9 {
+    font-size: 12px;
+    margin-right: 70px;
+}
+
+.o9 {
+    font-size: 20px;
+}
+
+.h9 {
+    width: 248px;
+    height: 48px;
+    margin: auto;
+    background-color: #8dd3bb;
+}
+
+.botun9 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.imej19 {
+    margin-top: 300px;
+    width: 248px;
+    margin-left: 23px;
+}
+
+.imej8 {
+    width: 296px;
+    height: 420px;
+    background-image: url(./rasmlar/photo_2026-04-28_22-41-57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.p8 {
+    font-size: 12px;
+    margin-right: 70px;
+}
+
+.o8 {
+    font-size: 20px;
+}
+
+.h8 {
+    width: 248px;
+    height: 48px;
+    margin: auto;
+    background-color: #8dd3bb;
+}
+
+.botun8 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.imej18 {
+    margin-top: 300px;
+    width: 248px;
+    margin-left: 23px;
+}
+
+.imej7 {
+    width: 296px;
+    height: 420px;
+    background-image: url(./rasmlar/photo_2026-04-28_22-42-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.p7 {
+    font-size: 12px;
+    margin-right: 70px;
+}
+
+.o7 {
+    font-size: 20px;
+}
+
+.h7 {
+    width: 248px;
+    height: 48px;
+    margin: auto;
+    background-color: #8dd3bb;
+}
+
+.botun7 {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.imej17 {
+    margin-top: 300px;
+    width: 248px;
+    margin-left: 23px;
+}
