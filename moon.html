@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/flight-listing.css" />
+    <link rel="stylesheet" href="./moon.css">
+</head>
+
+<body>
+    <nav>
+        <header>
+            <div class="header-left">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-plane"></i><a href="#">Find Flight</a>
+                    </li>
+                    <li><i class="fa-solid fa-bed"></i><a href="#">Find Stays</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <b><a href="#">golobe</a></b>
+            </div>
+            <div class="header-right">
+                <ul>
+                    <li><i class="fa-solid fa-heart"></i><a href="#">Favourites</a></li>
+                    <li>
+                        <img src="./assets/img/admin.png" alt="" /><a href="#">John D.</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </nav>
+
+    <form action="#">
+        <fieldset>
+            <legend>From-to</legend>
+            <input type="text" name="" id="" placeholder="Lahore - Karache" />
+            <i class="fa-solid fa-right-left"></i>
+        </fieldset>
+        <fieldset>
+            <legend>Trip</legend>
+            <select name="" id="">
+                <option value="return">Return</option>
+                <option value="to_go">To go</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Depart-Return</legend>
+            <input type="date" name="" id="" />
+            <span> - </span>
+            <input type="date" name="" id="" />
+        </fieldset>
+        <fieldset>
+            <legend>Passenger-Class</legend>
+            <input type="text" name="" id="" placeholder="1 Passenger, Economy" />
+        </fieldset>
+        <button><i class="fa-solid fa-search"></i></button>
+    </form>
+
+    <!-- filters -->
+    <div class="filters">
+        <div class="filter">
+            <h3>Filters</h3>
+            <details>
+                <summary>Price</summary>
+                <input type="range" name="" id="" />
+                <ul>
+                    <li>$50</li>
+                    <li>$1200</li>
+                </ul>
+            </details>
+            <details>
+                <summary>Departure Time</summary>
+                <input type="range" name="" id="" />
+                <ul>
+                    <li>12:01 AM</li>
+                    <li>11:56 PM</li>
+                </ul>
+            </details>
+            <details>
+                <summary>Rating</summary>
+                <button>0+</button>
+                <button>1+</button>
+                <button>2+</button>
+                <button>3+</button>
+                <button>4+</button>
+            </details>
+            <details>
+                <summary>Airlens</summary>
+                <label for="em"><input type="checkbox" name="" id="em" /> Emirated</label>
+                <label for="em"><input type="checkbox" name="" id="em" /> Emirated</label>
+                <label for="em"><input type="checkbox" name="" id="em" /> Emirated</label>
+                <label for="em"><input type="checkbox" name="" id="em" /> Emirated</label>
+            </details>
+            <details>
+                <summary>Trips</summary>
+                <label for="em"><input type="checkbox" name="" id="em" /> Round trip</label>
+                <label for="em"><input type="checkbox" name="" id="em" /> Emirated</label>
+                <label for="em"><input type="checkbox" name="" id="em" /> Emirated</label>
+                <label for="em"><input type="checkbox" name="" id="em" /> Emirated</label>
+            </details>
+        </div>
+        <div class="line"></div>
+        <div class="filter-cards">
+            <div class="filter-sort">
+                <div class="filter-sort-card">
+                    <h3>Cheapest</h3>
+                    <span>$99. 2h 18m</span>
+                </div>
+                <div class="filter-sort-line"></div>
+                <div class="filter-sort-card">
+                    <h3>Best</h3>
+                    <span>$99. 2h 18m</span>
+                </div>
+                <div class="filter-sort-line"></div>
+                <div class="filter-sort-card">
+                    <h3>Quickest</h3>
+                    <span>$99. 2h 18m</span>
+                </div>
+                <div class="filter-sort-line"></div>
+                <div class="filter-sort-othercard">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
