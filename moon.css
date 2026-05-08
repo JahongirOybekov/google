@@ -114,7 +114,6 @@ form button {
 .filter {
     width: 343px;
     height: 880px;
-    border: 1px solid magenta;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -140,38 +139,66 @@ form button {
 .filter details input {
     width: 100%;
 }
-.line{
+
+.line {
     width: 0.5px;
     height: 1360px;
     background-color: #112211;
 }
-.filter-cards{
+
+.filter-cards {
     width: 840px;
     height: 1428px;
 }
-.filter-sort{
+
+.filter-sort {
     width: 842px;
     height: 80px;
-    border: 1px solid red;
     display: flex;
+    box-shadow: 0px 2px 10px rgb(216, 198, 216);
     justify-content: space-evenly;
     align-items: center;
+    border-radius: 12px;
 }
-.filter-sort-card{
+
+.filter-sort-card {
     width: 160px;
     height: 45px;
-    border: 1px solid rgb(9, 147, 147);
 }
-.filter-sort-line{
+
+.filter-sort-line {
     width: 0.2px;
     height: 48px;
-    background-color: #112211;
+    background-color: #999;
 }
-.filter-sort-othercard{
+
+.filter-sort-othercard {
     width: 160px;
     height: 24px;
-    border: 1px solid rgb(220, 55, 220);
 }
-.filter-sort-card span{
+
+.filter-sort-card span {
     color: grey;
+}
+
+.best {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 80px;
+    border-bottom: 5px solid rgb(199, 227, 161);
+    border-radius: 3px;
+}
+.filter-show{
+    width: 840px;
+    height: 18px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-filter{
+    width: 840px;
+    height: 1428px;
+    border: 1px solid blue;
 }
