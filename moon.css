@@ -200,7 +200,6 @@ form button {
 .card-filter-left {
   width: 160px;
   height: 238px;
-  border: 1px solid aqua;
 }
 .card-filter-left img {
   width: 160px;
@@ -208,7 +207,6 @@ form button {
 .card-filter-right {
   width: 648px;
   height: 238px;
-  border: 1px solid aqua;
 }
 .filter-cards button {
   width: 840px;
