@@ -225,12 +225,147 @@ h2 {
 }
 
 .main3 {
+    background-color: white;
+    border-radius: 16px;
     width: 450px;
     height: 470px;
-    
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
     margin-left: 960px;
     margin-top: -350px;
-    background: white;
+}
+
+.header-section {
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.plane-img {
+    width: 120px;
+    height: 120px;
     border-radius: 12px;
+    object-fit: cover;
+}
+
+.header-info .category {
+    color: #7c7c7c;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+
+.header-info .title {
+    font-size: 26px;
+    font-weight: 700;
+    margin: 0 0 12px 0;
+    color: #1a1a1a;
+}
+
+.rating-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.rating-badge {
+    border: 1px solid #8dd3bb;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.rating-text {
+    font-size: 18px;
+    color: #1a1a1a;
+}
+
+.rating-text span {
+    color: #7c7c7c;
+}
+
+hr {
+    border: none;
+    border-top: 2px solid #afafaf;
+    margin: 0 18px;
+}
+
+.protection-text {
+    padding: 20px 24px;
+    font-size: 20px;
+    color: #1a1a1a;
+}
+
+.price-details {
+    padding: 0 24px 24px 24px;
+}
+
+.price-details h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    font-size: 20px;
+    color: #1a1a1a;
+    font-weight: 500;
+}
+
+.price-row.total {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 22px;
+}
+.main4{
+    width: 790px;
+    height: 242px;
+    background: white;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-top: -70px;
+    margin-left: 100px;
+}
+.lob{
+    background-color: rgba(141, 211, 187, 1);
+    width: 758px;
+    height: 80px;
+    border-radius: 12px;
+    margin-left: 13px;
+    margin-top: 17px;
+}
+.lob h3{
+    font-size: 27px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.lob p{
+    font-size: 18px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.pul{
+    width: 758px;
+    height: 114px;
+    margin-left: 13px;
+    margin-top: 25px;
+    border: 1px solid rgb(238, 234, 234);
+}
+.pul h3{
+    font-size: 23px;
+    padding-top: 2px;
+    padding-left: 15px;
+}
+.pul p{
+    width: 632px;
+    height: 55px;
+    font-size: 18px;
+    margin-left: 15px;
+    padding-top: 7px;
+}
+.pul span{
+    margin-left: 15px;
 }
