@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.div1 {
+    width: 1521px;
+    height: 90px;
+    margin: auto;
+    display: flex;
+}
+
+.box1 i {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 104px;
+}
+
+.box1 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.box2 i {
+    font-size: 24px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-left: 40px;
+}
+
+.box2 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.box3 img {
+    width: 110px;
+    height: 36px;
+    margin-left: 350px;
+    margin-top: 25px;
+}
+
+.box4 {
+    margin-top: 20px;
+}
+
+.box4 a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-left: 400px;
+}
+
+.box4 button {
+    width: 104px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+
+.div2 {
+
+    height: 607px;
+    margin: auto;
+}
+
+.div2 {
+    background: linear-gradient(rgba(62, 101, 160, 0.4), rgba(96, 84, 231, 0.2)),
+        url(./rasmlar2/home.jpg)center/cover no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.teks {
+    width: 440px;
+    height: 203px;
+    margin-left: 130px;
+}
+
+.teks h3 {
+    font-size: 50px;
+    color: white;
+    padding-top: 70px;
+}
+
+.teks p {
+    font-size: 25px;
+    color: white;
+    margin-top: 10px;
+}
+
+.div3 {
+    background: #fff;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    width: 1232px;
+    height: 252px;
+    margin: 20px auto;
+    margin-top: -100px;
+}
+
+.iml {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+.moll {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.input-group {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 15px;
+    flex: 1;
+}
+
+.input-group legend {
+    font-size: 12px;
+    padding: 0 5px;
+    color: #666;
+}
+
+.input-group input,
+.input-group select {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.teir {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.kopp {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.qode {
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 40px;
+}
+
+.rex {
+    background-color: #8DD3BB;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 40px;
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+}
